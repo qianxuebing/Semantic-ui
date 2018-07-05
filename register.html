@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Iconfont/iconfont.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="Semantic-UI-CSS-master/semantic.min.css">
+    <style>
+        .grid {
+            width: 30%;
+            margin: 70px auto !important;
+            background: #eee;
+            border-radius: 10px;
+            padding: 10px !important;
+        }
+
+        .user,
+        .lock {
+            position: absolute;
+            top: 50%;
+            left: 2%;
+            transform: translateY(-50%);
+        }
+
+        .ui .submit {
+            width: 40%;
+            margin: 10px auto;
+            display: block;
+            margin-bottom: 0;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="ui  grid">
+        <div class="column">
+            <div class="ui form">
+                <div class="field">
+                    <label>Username</label>
+                    <div class="ui left icon input">
+                        <input type="text" placeholder="Username">
+                        <i class="user  iconfont icon-user"></i>
+                    </div>
+                </div>
+                <div class="field">
+                    <label>Password</label>
+                    <div class="ui left icon input">
+                        <input type="password">
+                        <i class="lock  iconfont icon-mima"></i>
+                    </div>
+                </div>
+                <div class="ui blue submit button">Login</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="Semantic-UI-CSS-master/semantic.min.js"></script>
+</body>
+
+</html>
